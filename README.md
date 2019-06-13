@@ -9,7 +9,7 @@ Requirements:
 - Use delegation.
 - The code should not change as the number of columns or rows increases.
 
-It's may be helpful - [navigation](https://learn.javascript.ru/traversing-dom#dom-navigation-tables)
+This article may be helpful - [navigation](https://learn.javascript.ru/traversing-dom#dom-navigation-tables)
 
 ### Screenshot of the tree
 ![screenshot](example/sort_table.png)
