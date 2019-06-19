@@ -1,79 +1,24 @@
-# Base template for Gulp
+# Sort table
 
-Template to start from before starting frontend projects.
+## Task
 
-## Install template
+Sort the table by clicking on the header.
 
-- Create empty repository for your project. [learn how](#) _need a link here_
-- Clone boilerplate into project directory and navigate there.
-```bash
-$ git clone https://github.com/mate-academy/gulp-template.git project-name
-$ cd project-name
-```
-- Change remote repository to recently created
-```bash
-$ git remote set-url origin github-link-of-project
-```
-- Install dependencies
-```bash
-$ npm install
-```
+Requirements:
 
-All packages will be installed after executing the script above.
+- Use delegation.
+- The code should not change as the number of columns or rows increases.
 
-## Development mode 
+This article may be helpful - [navigation](https://learn.javascript.ru/traversing-dom#dom-navigation-tables)
 
-```bash
-$ npm run start
-```
+### Screenshot of the tree
+![screenshot](example/sort_table.png)
 
-## Build the project
+---
+**Read the guideline before start**
 
-```bash
-$ npm run build
-```
+[Guideline](https://github.com/mate-academy/js_task-DOM-guideline)
 
-## Linters
+**Result**
 
-To check codestyle manually execute command:
-```bash
-$ npm run lint
-```
-This command will check codestyle for html/scss/js files in `/src`. Also, 
-linters run on `pre-commit` hook and during development.
-
-- Follow [the simplified JS styleguide](https://mate-academy.github.io/style-guides/javascript-standard-modified)
-- Follow [HTML, CSS styleguide](https://mate-academy.github.io/style-guides/htmlcss.html)
-
-## Deploy on gh-pages
-
-- Build the project
-```bash
-$ npm run build
-```
-- Commit and push all recent changes
-```bash
-$ git add .
-$ git commit -m 'commit message'
-$ git push origin branch-name
-```
-- Execute `npm run deploy`. This command will push the `/dist` folder to branch
-  `gh-pages` in your remote repository. 
-- Enable `gh-pages` for your repository. [learn how](#) _need a link here_
-
-## Project structure
-
-- `src/` - directory for html, css, sass, js, image, fonts files
-- `dist/` - directory for built pages
-
-You should be writing code in `src/` directory.
-
-### Livereload and syncronization with browsers
-
-Task `$ npm run start`
-
-When task is executed, gulp starts local web server BrowserSync and opens index.html.  
-
-[About BrowserSync](http://www.browsersync.io/)  
-
-Server uses `dist/` as a project root.
+- [UPDATE DEMO LINK](https://<your_account>.github.io/<repo_name>/)

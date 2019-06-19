@@ -5,3 +5,16 @@
 body {
   background: $c-gray;
 }
+
+table {
+  text-align: center;
+}
+
+th {
+  cursor: pointer;
+  padding: 0 50px;
+}
+
+th:hover {
+  background: green;
+}
